@@ -8,7 +8,7 @@ ${HOME_URL}  http://${SERVER}
 ${BROWSER}   chrome
 ${HEADLESS}  false
 
-*** Keywords ***
+*** Keywords *** 
 Open And Configure Browser
     IF  $BROWSER == 'chrome'
         ${options}  Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys
